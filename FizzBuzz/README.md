@@ -8,3 +8,4 @@ programmer: Amanda Kom (no collaboration)
 - Next, it checks to see if the number is just a multiple of 3, which would print "Fizz"
 - If it's not a multiple of 3, it will check if the number is a multiple of 5, which would print "Buzz"
 - Finally, if the number is neither a multiple of 3 nor a multiple of 5, it will print out the input number
+-Added changes from @Brookr
