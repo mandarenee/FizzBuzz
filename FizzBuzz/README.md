@@ -9,3 +9,11 @@ programmer: Amanda Kom (no collaboration)
 - If it's not a multiple of 3, it will check if the number is a multiple of 5, which would print "Buzz"
 - Finally, if the number is neither a multiple of 3 nor a multiple of 5, it will print out the input number
 -Added changes from @Brookr
+
+FizzBuzzAdvanced.rb
+==============
+
+programmer: Amanda Kom (collaboration with David Ker)
+--------------
+
+- FizzBuzz first takes key-value pairs from the client to indicate outputs

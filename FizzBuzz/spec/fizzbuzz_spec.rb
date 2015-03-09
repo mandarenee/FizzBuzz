@@ -1,3 +1,4 @@
+require "spec_helper"
 require 'FizzBuzzImproved'
 
 describe FizzBuzzImproved do
@@ -10,7 +11,7 @@ describe FizzBuzzImproved do
     a.set(3, "Fizz")
     a.set(5, "Buzz")
     a.set(7, "Sivv")
-    b = a.val(105)
+    b = a.final(105)
     b.must_equal "FizzBuzzSivv"
   end
 
@@ -19,7 +20,7 @@ describe FizzBuzzImproved do
     a.set(2, "Grr")
     a.set(3, "Meow")
     a.set(6, "Flap")
-    b = a.val(12)
+    b = a.final(12)
     b.must_equal "GrrMeowFlap"
   end
 
@@ -28,7 +29,7 @@ describe FizzBuzzImproved do
     a.set(3, "Fizz")
     a.set(5, "Buzz")
     a.set(7, "Sivv")
-    b = a.val(10)
+    b = a.final(10)
     b.must_equal "Buzz"
   end
 
@@ -37,7 +38,7 @@ describe FizzBuzzImproved do
     a.set(3, "Fizz")
     a.set(5, "Buzz")
     a.set(8, "Sivv")
-    b = a.val(7)
+    b = a.final(7)
     b.must_equal 7
   end
 end
